@@ -1,5 +1,5 @@
 package uk.co.kiteframe.helloworld
 
 class HelloWorld {
-    fun greet() = "Hello there"
+    fun greet() = "Hello, world"
 }

@@ -5,8 +5,8 @@ import kotlin.test.assertEquals
 
 class HelloWorldTest {
     @Test
-    fun `with no one known, greetings are anonymous`() {
+    fun `it greets the world`() {
         val helloWorld = HelloWorld()
-        assertEquals("Hello there", helloWorld.greet())
+        assertEquals("Hello, world", helloWorld.greet())
     }
 }

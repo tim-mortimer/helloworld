@@ -13,6 +13,6 @@ class HelloWorldApiTest {
         val api: HttpHandler = api()
         val response = api(Request(Method.GET, "/greet"))
         assertEquals(Status.OK, response.status)
-        assertEquals("Hello there", response.bodyString())
+        assertEquals("Hello, world", response.bodyString())
     }
 }
